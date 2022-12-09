@@ -902,7 +902,7 @@
     (uuid 16dced80-e89f-4732-a9d0-2ec4769624b0)
     (property "Reference" "FB1" (id 0) (at 121.92 96.52 90))
     (property "Value" "FerriteBead" (id 1) (at 118.11 99.06 90))
-    (property "Footprint" "Diode_THT:D_DO-201AD_P3.81mm_Vertical_AnodeUp" (id 2) (at 118.11 95.758 90)
+    (property "Footprint" "Diode_THT:D_DO-201AD_P5.08mm_Vertical_AnodeUp" (id 2) (at 118.11 95.758 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 118.11 93.98 0)
@@ -1233,7 +1233,7 @@
       (reference "D1") (unit 1) (value "P6KE12A") (footprint "Diode_THT:D_DO-15_P12.70mm_Horizontal")
     )
     (path "/16dced80-e89f-4732-a9d0-2ec4769624b0"
-      (reference "FB1") (unit 1) (value "FerriteBead") (footprint "Diode_THT:D_DO-201AD_P3.81mm_Vertical_AnodeUp")
+      (reference "FB1") (unit 1) (value "FerriteBead") (footprint "Diode_THT:D_DO-201AD_P5.08mm_Vertical_AnodeUp")
     )
     (path "/229a9edf-f2f6-4480-8389-16c61feed870"
       (reference "J1") (unit 1) (value "SBusConn") (footprint "Connector_Wire:SolderWire-0.5sqmm_1x04_P4.6mm_D0.9mm_OD2.1mm_Relief")
