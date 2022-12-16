@@ -417,7 +417,6 @@
     )
   )
 
-
   (junction (at 200.66 93.98) (diameter 0) (color 0 0 0 0)
     (uuid 148ae7b1-d873-405e-96d7-c550a3e69048)
   )
@@ -901,9 +900,9 @@
   (symbol (lib_id "Device:FerriteBead") (at 118.11 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 16dced80-e89f-4732-a9d0-2ec4769624b0)
-    (property "Reference" "FB1" (id 0) (at 121.92 96.52 90))
+    (property "Reference" "FB" (id 0) (at 121.92 96.52 90))
     (property "Value" "FerriteBead" (id 1) (at 118.11 99.06 90))
-    (property "Footprint" "Diode_THT:D_DO-201AD_P5.08mm_Vertical_AnodeUp" (id 2) (at 118.11 95.758 90)
+    (property "Footprint" "I2CBusExtender:EXCEL_DR35C" (id 2) (at 118.11 95.758 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 118.11 93.98 0)
@@ -1234,7 +1233,7 @@
       (reference "D1") (unit 1) (value "P6KE12A") (footprint "Diode_THT:D_DO-15_P12.70mm_Horizontal")
     )
     (path "/16dced80-e89f-4732-a9d0-2ec4769624b0"
-      (reference "FB1") (unit 1) (value "FerriteBead") (footprint "Diode_THT:D_DO-201AD_P5.08mm_Vertical_AnodeUp")
+      (reference "FB") (unit 1) (value "FerriteBead") (footprint "I2CBusExtender:EXCEL_DR35C")
     )
     (path "/229a9edf-f2f6-4480-8389-16c61feed870"
       (reference "J1") (unit 1) (value "SBusConn") (footprint "Connector_Wire:SolderWire-0.5sqmm_1x04_P4.6mm_D0.9mm_OD2.1mm_Relief")
